@@ -1,0 +1,5 @@
+services:
+  superchain:
+    build: .
+    volumes:
+      - ./home:/home/superchain
